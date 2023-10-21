@@ -4,5 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[env]
+XLA_EXTENSION_DIR = "ignore_xla/xla_extension"
 
 [dependencies]
+xla = "0.1.6"
